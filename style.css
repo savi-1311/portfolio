@@ -103,3 +103,17 @@ color: white;
 padding: 1%;
 margin: 1%;
 }
+
+#interests
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+#interests .card{
+width: 20%;
+text-align: center;
+color: white;
+padding: 1%;
+margin: 1%;
+}
