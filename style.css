@@ -1,0 +1,105 @@
+
+body
+{
+font-family: 'Josefin Sans', sans-serif;
+background-color: black;
+}
+
+
+.text{
+padding: 4%;
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 40%;
+        right: 0;
+        top: 20%;
+        text-align: right;
+        width: 60%; 
+            }
+.text h1
+{
+font-weight: bold;
+font-size: 400%;
+text-decoration: underline;
+text-decoration-color: teal;
+text-underline-position: under;
+text-height:150%;
+}
+.text h3
+{
+font-size: 180%;
+text-height:150%;
+color: whitesmoke;
+}
+
+.links
+{
+padding:1%;
+margin: 1%;
+}
+.links a
+{
+padding: 1%;
+margin: 1%;
+font-size: 120%;
+text-decoration:none;
+color: grey;
+transition: border-width 0.6s linear;
+transition: border-color 0.6s linear;
+border-bottom: 1px solid transparent;
+}
+
+
+.links a:hover{
+cursor:pointer;
+color: white;
+border-width: 2px;
+border-color: teal;
+}
+
+#education
+{
+margin: 1%;
+padding: 1%;
+color: black;
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+}
+
+#education .card
+{
+width: 30%;
+margin: 1%;
+padding: 1%;
+text-align: center;
+background-color: rgba(255, 255, 255);
+}
+#education .card h3
+{
+font-weight: bold;
+}
+#education .card h3:hover
+{
+font-weight: bold;
+}
+#education .card:hover
+{
+cursor: pointer;
+background-color: teal;
+color: white;
+}
+#skills
+{
+padding: 4%;
+margin: 4%;
+}
+#skills td{
+width: 50%;
+text-align: center;
+font-size: 150%;
+color: white;
+padding: 1%;
+margin: 1%;
+}
