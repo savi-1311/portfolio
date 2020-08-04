@@ -122,6 +122,20 @@ padding: 1%;
 margin: 1%;
 }
 
+#internships td
+{
+padding: 1%;
+width: 50%;
+font-size: 200%;
+color: white;
+text-align: center;
+}
+
+#internships td img
+{
+padding: 1%;
+}
+
 
 
 
@@ -189,7 +203,7 @@ padding:1%;
 
 .projects .card .text-down h1
 {
-font-size: 300%;
+font-size: 200%;
 font-weight: bold;
 color: white;
 padding:1%;
@@ -208,12 +222,13 @@ border: 5px solid white;
 
 .projects .card .git
 {
+height: inherit;
 display:flex;
 flex-direction:column;
 justify-content: space-around;
-height: 375px;
 margin:1%;
-padding: 1%;
+padding-top: 14%;
+padding-bottom: 15%;
 border-radius: 2%;
 background-color:white;
 text-align: center;
@@ -241,7 +256,7 @@ opacity: 0.3;
 
 .projects .card .overlay .text
 {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -265,9 +280,10 @@ opacity: 0.3;
 display:flex;
 flex-direction:column;
 justify-content: space-around;
-height: 375px;
+height: 100%;
 margin:1%;
-padding: 1%;
+padding-top: 14%;
+padding-bottom: 15%;
 border-radius: 2%;
 background-color:white;
 text-align: center;
