@@ -104,6 +104,10 @@ padding: 1%;
 margin: 1%;
 }
 
+#skills td i{
+font-size: 200%;
+}
+
 #interests
 {
 display: flex;
@@ -118,20 +122,53 @@ padding: 1%;
 margin: 1%;
 }
 
-#projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects
 {
 margin:1%;
 padding:1%;
 }
 
-#projects .card
+.projects .card
 {
 padding:1%;
 display: flex;
 flex-direction: column;
 }
 
-#projects .card .text-down
+.projects .card .text-down
 {
 color: white;
 width: 100%;
@@ -141,7 +178,7 @@ flex-direction: column;
 text-align: center;
 }
 
-#projects .card .text-down a
+.projects .card .text-down a
 {
 text-decoration: none;
 font-weight: bold;
@@ -149,7 +186,7 @@ color: turquoise;
 padding:1%;
 }
 
-#projects .card .text-down h1
+.projects .card .text-down h1
 {
 font-size: 300%;
 font-weight: bold;
@@ -161,9 +198,53 @@ padding:1%;
 
 
 
-#projects .card img
+.projects .card img
 {
 width: 100%;
 margin:1%;
 border: 5px solid white;
 }
+
+.projects .card .git
+{
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+height: 375px;
+margin:1%;
+padding: 1%;
+border-radius: 2%;
+background-color:white;
+text-align: center;
+}
+
+
+.projects .card .stack
+{
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+height: 375px;
+margin:1%;
+padding: 1%;
+border-radius: 2%;
+background-color:white;
+text-align: center;
+}
+
+.projects .card .stack table td
+{
+padding:1%;
+font-size: 200%;
+height: inherit;
+}
+
+.projects .card .git h1
+{
+font-weight: bold;
+border-bottom: 2px solid teal;
+text-align: center;
+}
+
+
+
