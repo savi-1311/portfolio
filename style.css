@@ -1,8 +1,15 @@
 
+html {
+  scroll-behavior: smooth;
+   overflow: auto; 
+}
+
 body
 {
 font-family: 'Josefin Sans', sans-serif;
 background-color: black;
+align-content:center;
+align-items:center;
 }
 
 
@@ -58,6 +65,29 @@ border-width: 2px;
 border-color: teal;
 }
 
+.links1
+{
+padding:1%;
+margin: 1%;
+color: grey;
+}
+.links1 a
+{
+padding: 1%;
+margin: 1%;
+font-size: 120%;
+text-decoration:none;
+color: grey;
+}
+
+
+.links1 a:hover{
+cursor:pointer;
+color: white;
+border-width: 2px;
+border-color: teal;
+}
+
 #education
 {
 margin: 1%;
@@ -78,8 +108,20 @@ background-color: rgba(255, 255, 255);
 }
 #education .card h3
 {
+font-size: 150%;
 font-weight: bold;
 }
+
+#education .card h4
+{
+font-size: 120%;
+}
+
+#education .card h5
+{
+font-size: 100%;
+}
+
 #education .card h3:hover
 {
 font-weight: bold;
@@ -115,11 +157,17 @@ flex-direction: row;
 justify-content: space-around;
 }
 #interests .card{
+background-color:black;
 width: 20%;
 text-align: center;
 color: white;
 padding: 1%;
 margin: 1%;
+}
+
+#interests h3
+{
+font-size: 50%;
 }
 
 #internships td
@@ -198,7 +246,6 @@ text-align: center;
 
 .projects
 {
-margin:1%;
 padding:1%;
 background-color: teal;
 }
@@ -282,25 +329,8 @@ opacity: 0.3;
 }
 
 
-.projects .card .overlay .text
-{
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 
-.projects .card .overlay:hover
-{
-  bottom: 0;
-  height: 100%;
-}
 
 
 .projects .card .stack
@@ -339,5 +369,23 @@ border-bottom: 2px solid teal;
 text-align: center;
 }
 
+.project2
+{
+  margin: auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding:1%;
+margin: 1%;
+justify-content: space-around;
+}
+
+.project2 .card
+{
+padding: 0.5%;
+margin: 1%;
+width: 25%;
+}
 
 
