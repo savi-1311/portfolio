@@ -24,6 +24,7 @@ padding: 4%;
         text-align: right;
         width: 60%; 
             }
+
 .text h1
 {
 font-weight: bold;
@@ -33,6 +34,7 @@ text-decoration-color: teal;
 text-underline-position: under;
 text-height:150%;
 }
+
 .text h3
 {
 font-size: 180%;
@@ -71,6 +73,7 @@ padding:1%;
 margin: 1%;
 color: grey;
 }
+
 .links1 a
 {
 padding: 1%;
